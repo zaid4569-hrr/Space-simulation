@@ -1,0 +1,44 @@
+[
+  {
+    "id": "earth",
+    "name": "Earth orbit",
+    "distanceLabel": "Mean distance from Sun",
+    "distance": "149.6 million km",
+    "gravity": "9.80 m/s²",
+    "dayLength": "24 hours",
+    "environment": "A nitrogen- and oxygen-rich atmosphere supports liquid water at the surface.",
+    "notableMission": "International Space Station",
+    "notableMissionUrl": "https://www.nasa.gov/international-space-station/",
+    "factSheetUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+    "imageUrl": "fallback/media/earth.jpg",
+    "imageAlt": "Earth observed by NASA's EPIC instrument"
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "distanceLabel": "Mean distance from Earth",
+    "distance": "384,400 km",
+    "gravity": "1.62 m/s²",
+    "dayLength": "29.5 Earth days (solar day)",
+    "environment": "The Moon has a very tenuous exosphere and extreme surface temperature changes.",
+    "notableMission": "Apollo 11",
+    "notableMissionUrl": "https://www.nasa.gov/missions/apollo/apollo-11/",
+    "factSheetUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+    "imageUrl": "fallback/media/moon.jpg",
+    "imageAlt": "The Moon, photographed by NASA"
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "distanceLabel": "Mean distance from Sun",
+    "distance": "227.956 million km",
+    "gravity": "3.73 m/s²",
+    "dayLength": "24.6597 hours",
+    "environment": "A cold, rocky world with a thin atmosphere composed mostly of carbon dioxide.",
+    "notableMission": "Perseverance rover",
+    "notableMissionUrl": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+    "factSheetUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+    "imageUrl": "fallback/media/mars.jpg",
+    "imageAlt": "Mars as seen by NASA's Mars Global Surveyor"
+  }
+]
