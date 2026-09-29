@@ -1,6 +1,6 @@
 import { nasaFetchJson } from './nasaClient'
 
-export type DestinationId = 'earth' | 'moon' | 'mars'
+export type DestinationId = 'earth' | 'moon' | 'mars' | 'jupiter' | 'saturn' | 'sun'
 
 export interface DestinationFact {
   id: DestinationId

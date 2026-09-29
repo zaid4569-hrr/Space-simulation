@@ -318,3 +318,20 @@
   .readout { grid-template-columns: 1fr auto; border-right: 0; border-bottom: 1px solid var(--line); }
   .readout .data-badge { grid-column: 1 / -1; }
 }
+
+/* Planet Marks for Jupiter, Saturn, and Sun */
+.planet-mark--jupiter { background: radial-gradient(circle at 30% 30%, #e3a87c, #8a502e 65%, #63331a); }
+.planet-mark--saturn { background: radial-gradient(circle at 35% 25%, #faedcd, #f4a261 60%, #d4a373); box-shadow: 0 0 0 3px rgba(244, 162, 97, 0.4); }
+.planet-mark--sun { background: radial-gradient(circle at 50% 50%, #ffffff 0%, #ffb703 40%, #fb8500 70%, #d4d700 100%); box-shadow: 0 0 14px rgba(255, 183, 3, 0.8); }
+
+/* Difficulty Mode Selector */
+.difficulty-toggle-bar { display: inline-flex; align-items: center; background: rgba(15, 23, 42, 0.8); border: 1px solid var(--line-strong); border-radius: 20px; padding: 3px; gap: 4px; }
+.difficulty-pill { padding: 4px 12px; border-radius: 16px; font-size: 11px; font-weight: 600; cursor: pointer; border: 0; background: transparent; color: var(--muted); transition: all 150ms ease; }
+.difficulty-pill.is-active { background: var(--green); color: #0f172a; font-weight: 700; box-shadow: 0 0 10px rgba(169, 232, 116, 0.3); }
+
+/* Beginner Hint Box */
+.equipment-hint-card { background: rgba(169, 232, 116, 0.08); border: 1px solid rgba(169, 232, 116, 0.3); border-radius: 6px; padding: 12px 14px; margin: 12px 0; display: flex; align-items: flex-start; gap: 10px; font-size: 12px; color: #e2e8f0; }
+.equipment-hint-card--warning { background: rgba(255, 180, 159, 0.1); border-color: rgba(255, 137, 108, 0.4); }
+
+/* Academy List Item Active Hover */
+.academy-item-button:hover:not(.is-active) { border-color: rgba(169, 232, 116, 0.5) !important; background: rgba(169, 232, 116, 0.05) !important; }

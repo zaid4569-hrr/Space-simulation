@@ -21,7 +21,7 @@
     "gravity": "1.62 m/s²",
     "dayLength": "29.5 Earth days (solar day)",
     "environment": "The Moon has a very tenuous exosphere and extreme surface temperature changes.",
-    "notableMission": "Apollo 11",
+    "notableMission": "Apollo 11 / Artemis",
     "notableMissionUrl": "https://www.nasa.gov/missions/apollo/apollo-11/",
     "factSheetUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
     "imageUrl": "fallback/media/moon.jpg",
@@ -40,5 +40,47 @@
     "factSheetUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
     "imageUrl": "fallback/media/mars.jpg",
     "imageAlt": "Mars as seen by NASA's Mars Global Surveyor"
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter & Moons",
+    "distanceLabel": "Mean distance from Sun",
+    "distance": "778.5 million km",
+    "gravity": "24.79 m/s²",
+    "dayLength": "9.93 hours",
+    "environment": "Gas giant with massive radiation belts, cloud bands, and ocean moons (Europa, Ganymede).",
+    "notableMission": "Juno / Europa Clipper",
+    "notableMissionUrl": "https://www.nasa.gov/mission_pages/juno/main/index.html",
+    "factSheetUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+    "imageUrl": "fallback/media/mars.jpg",
+    "imageAlt": "Jupiter gas giant with Great Red Spot"
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn & Titan",
+    "distanceLabel": "Mean distance from Sun",
+    "distance": "1.43 billion km",
+    "gravity": "10.44 m/s²",
+    "dayLength": "10.7 hours",
+    "environment": "Gas giant famed for extensive icy ring system and dense atmosphere moon Titan.",
+    "notableMission": "Cassini-Huygens",
+    "notableMissionUrl": "https://science.nasa.gov/mission/cassini/",
+    "factSheetUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+    "imageUrl": "fallback/media/earth.jpg",
+    "imageAlt": "Saturn ringed giant"
+  },
+  {
+    "id": "sun",
+    "name": "The Sun",
+    "distanceLabel": "Inner Solar Corona",
+    "distance": "6.9 million km (Perihelion)",
+    "gravity": "274.0 m/s²",
+    "dayLength": "27 Earth days",
+    "environment": "Extreme thermal environment with intense solar magnetic fields and coronal mass ejections.",
+    "notableMission": "Parker Solar Probe",
+    "notableMissionUrl": "https://science.nasa.gov/mission/parker-solar-probe/",
+    "factSheetUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+    "imageUrl": "fallback/media/mars.jpg",
+    "imageAlt": "The Sun solar corona"
   }
 ]
